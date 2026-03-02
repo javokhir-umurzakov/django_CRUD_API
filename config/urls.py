@@ -8,9 +8,9 @@ from django.conf.urls.static import static
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Professional Product API",
+      title=" Mahsulotlar API paneli",
       default_version='v1',
-      description="Professional CRUD API with JWT",
+      description="PMahsulotlar API panel JWT bilan",
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
